@@ -1,0 +1,29 @@
+{
+  "_readme": [
+    "This is Tagify's single shared settings file.",
+    "Edit the values below, then double-click run_tagger (or run 'python run_tagger.py').",
+    "Use double '\\' for directory!",	
+    "Do NOT rename any of the keys (e.g. 'client_id', 'api_key') — only edit the values.",
+    "Every other setting (Whisper/Demucs options, genre thresholds, mood prototypes, etc.) still lives inside each script under scripts/ — this file only holds the source folder and API credentials."
+  ],
+
+  "source_music_directory": "C:\\Users\\<user_name>\\OneDrive\\Desktop\\Spytify",
+
+  "spotify": {
+    "_comment": "Create an app at https://developer.spotify.com/dashboard to get these two values.",
+    "client_id": "<your_client_id>",
+    "client_secret": "<your_client_secret>"
+  },
+
+  "lastfm": {
+    "_comment": "Get a free API key at https://www.last.fm/api/account/create",
+    "api_key": "<your_api_key>"
+  },
+
+  "musicbrainz": {
+    "_comment": "MusicBrainz has no API key — it just asks every app to identify itself with these three fields. Only providing the app name(any but without space) works [optional] Set 'contact' to your email or a URL so MusicBrainz can reach you if their API team ever needs to.",
+    "app_name": "<anyappname>",
+    "app_version": "1.0",
+    "contact": "not-provided@example.com"
+  }
+}
