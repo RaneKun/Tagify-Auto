@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![License](https://img.shields.io/badge/RaneKun-Open--Use--License-yellow.svg)
 
 A one-click pipeline that runs all six Tagify taggers back-to-back against your `.ogg` music library — BPM/mood, genre (online + offline), lyrics (online + offline), and Spotify metadata — so you don't have to launch each module by hand.
 
