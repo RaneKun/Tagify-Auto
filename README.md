@@ -6,9 +6,9 @@
 
 A one-click pipeline that runs all six Tagify taggers back-to-back against your `.ogg` music library — BPM/mood, genre (online + offline), lyrics (online + offline), and Spotify metadata — so you don't have to launch each module by hand.
 
-> This is the **Auto Edition** — a single orchestrator script (`run_tagger.py`) chains all six taggers together and moves each file through the full pipeline automatically. Prefer running modules one at a time yourself? Check out [Tagify (Manual Edition)](https://github.com/RaneKun/Tagify), the standalone version each of these scripts is built from.
+> This is best used with [Spytify](https://github.com/jwallet/spy-spotify) with `.wav` download and then [converting](https://github.com/Tichau/FileConverter) that to `.ogg` format for the best Spotify quality feel.
 
-> For screenshot previews click [here](SCREENSHOTS.md)
+> This is the **Auto Edition** — a single orchestrator script (`run_tagger.py`) chains all six taggers together and moves each file through the full pipeline automatically. Prefer running modules one at a time yourself? Check out [Tagify (Manual Edition)](https://github.com/RaneKun/Tagify), the standalone version each of these scripts is built from.
 
 ## ✨ How It's Different From the Manual Edition
 
@@ -115,6 +115,13 @@ DAILY_CALL_LIMIT = 700  # soft warning limit, not a hard stop
 - `run_tagger.py` calls each stage's conda `python.exe` directly rather than through `conda run`, since `conda run` is known to reset the terminal mid-output on Windows.
 - Every stage logs everything (DEBUG level) to its own file under `logs/`, even when the console only shows a summary.
 - For a deeper technical breakdown of each individual tagger, see the [Manual Edition's Technical Guide](https://github.com/RaneKun/Tagify/blob/main/TECHNICAL_GUIDE.md) — every stage here is the same script, just orchestrated automatically.
+- For screenshot previews click [here](SCREENSHOTS.md)
+
+## 💭 Why I Built This
+
+Spotify's catalog isn't stable — labels pull tracks, artists get delisted, whole albums vanish from your library overnight with zero warning. Songs I loved for years have quietly **disappeared** more than once. So I record what I care about with [Spytify](https://github.com/jwallet/spy-spotify) — but a `.wav` or `.mp3` straight off that pipeline is basically a blank slate: no lyrics, no genre, often no cover art, just a filename. *That's a visual downgrade and hurts the point of preserving something if what you're left with is worse than the first experience.*
+
+Tagify is the other half of that: <ins>it takes those bare files and builds back</ins> — and in places **exceeds** — what Spotify's own app displays. Full album art, accurate metadata, multilingual lyrics, genre tags pulled from multiple sources and cross-checked, even BPM and mood data Spotify never exposed to begin with. The result is a library that's not just "saved," but archived properly — metadata-rich, searchable, and playable in any player, forever, regardless of what Spotify does next.
 
 ## 🙏 Credits
 
