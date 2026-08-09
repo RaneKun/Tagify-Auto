@@ -1,16 +1,16 @@
 # 🖼️ Tagify (Auto Edition) — Screenshots
 
+## ⚙️ Setup
+One-pass conda environment builder — sets up all six per-stage environments in one go.
+
+<img width="965" height="1233" alt="Screenshot 2026-08-05 105800" src="https://github.com/user-attachments/assets/a12b9125-8990-446e-b141-e737feb46116" />
+
 ## 🎛️ Run Tagger
 The orchestrator in action — and a final summary banner.
 
 <img width="1147" height="443" alt="Screenshot 2026-08-09 221102" src="https://github.com/user-attachments/assets/a72f78f5-b4f1-42d6-bdce-6895d6461438" />
 
 <img width="1034" height="464" alt="Screenshot 2026-08-09 222019" src="https://github.com/user-attachments/assets/5bb0eb54-f2c8-4f37-a3d9-5edc4fb2e3b5" />
-
-## ⚙️ Setup
-One-pass conda environment builder — sets up all six per-stage environments in one go.
-
-<img width="965" height="1233" alt="Screenshot 2026-08-05 105800" src="https://github.com/user-attachments/assets/a12b9125-8990-446e-b141-e737feb46116" />
 
 ## 🎧 BPM Mood Tagger
 Cross-validates BPM with aubio + librosa and assigns a mood tag from 23 prototypes normalized against your library.
