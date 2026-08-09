@@ -5,7 +5,7 @@ The orchestrator in action — and a final summary banner.
 
 <img width="1147" height="443" alt="Screenshot 2026-08-09 221102" src="https://github.com/user-attachments/assets/a72f78f5-b4f1-42d6-bdce-6895d6461438" />
 
-<img width="1039" height="421" alt="Screenshot 2026-08-09 221125" src="https://github.com/user-attachments/assets/73c9ee49-d2d2-447d-9760-f93fd191a1ca" />
+<img width="1034" height="464" alt="Screenshot 2026-08-09 222019" src="https://github.com/user-attachments/assets/5bb0eb54-f2c8-4f37-a3d9-5edc4fb2e3b5" />
 
 ## ⚙️ Setup
 One-pass conda environment builder — sets up all six per-stage environments in one go.
@@ -15,7 +15,7 @@ One-pass conda environment builder — sets up all six per-stage environments in
 ## 🎧 BPM Mood Tagger
 Cross-validates BPM with aubio + librosa and assigns a mood tag from 23 prototypes normalized against your library.
 
-<img width="1209" height="1058" alt="Screenshot 2026-08-09 221314" src="https://github.com/user-attachments/assets/3e3d0337-2838-4126-89aa-6c0578468179" />
+<img width="1209" height="1009" alt="Screenshot 2026-08-09 221314" src="https://github.com/user-attachments/assets/b3546b87-a77d-4191-9c30-5408f65bcfe9" />
 
 ## 🌐 Online Genre Tagger
 Queries Last.fm, iTunes, and MusicBrainz, merges and scores their tags into up to 3 genres.
@@ -40,4 +40,4 @@ Offline fallback pass — transcribes lyrics locally via Demucs → DeepFilterNe
 ## 🟢 Spotify Tagger
 Final pass — fetches title, artist, album, release year, and embedded album art, then moves the finished file into `output/`.
 
-<img width="1092" height="956" alt="Screenshot 2026-08-05 174541" src="https://github.com/user-attachments/assets/a156c8f3-c0f4-40b6-a9b5-928f09d3bfe8" />
+<img width="1269" height="958" alt="Screenshot 2026-08-09 222005" src="https://github.com/user-attachments/assets/05bb8243-be03-442b-b2ac-4f7ab3d42c6b" />
