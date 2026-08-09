@@ -8,6 +8,8 @@ A one-click pipeline that runs all six Tagify taggers back-to-back against your 
 
 > This is the **Auto Edition** — a single orchestrator script (`run_tagger.py`) chains all six taggers together and moves each file through the full pipeline automatically. Prefer running modules one at a time yourself? Check out [Tagify (Manual Edition)](https://github.com/RaneKun/Tagify), the standalone version each of these scripts is built from.
 
+> For screenshot previews click [here](SCREENSHOTS.md)
+
 ## ✨ How It's Different From the Manual Edition
 
 - **One config file** — a single `config.json` at the repo root holds your source folder and all API credentials, instead of setting each script up interactively.
