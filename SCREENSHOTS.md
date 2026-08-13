@@ -1,5 +1,61 @@
 # 🖼️ Tagify (Auto Edition) — Screenshots
 
+## 📂 Project Stucture
+```
+Tagify/
+├── failed/
+│   ├── instrumental/
+│   │   ├── Geoxor - Aurora.ogg
+│   │   └── N!GHT - Yume.ogg
+│   ├── no_genre/
+│   └── no_lyrics/
+├── logs/
+│   ├── bpm_mood.log
+│   ├── bpm_mood_checkpoint.json
+│   ├── feature_stats.json
+│   ├── genre__offline.log
+│   ├── genre_offline_checkpoint.json
+│   ├── genre_online.log
+│   ├── genre_online_artist_cache.json
+│   ├── genre_online_checkpoint.json
+│   ├── lyrics_offline.log
+│   ├── lyrics_offline_checkpoint.json
+│   └── ...
+├── output/
+│   ├── 2 Man Embassy - The End.ogg
+│   ├── BellyJay - MONTAGEM HASHIRU.ogg
+│   ├── Geoxor - Aurora.ogg
+│   ├── Leat'eq - Tokyo - Bubblegum.ogg
+│   ├── N!GHT - Yume.ogg
+│   ├── NEFFEX - Rumors.ogg
+│   └── The Chainsmokers - Closer.ogg
+├── scripts/
+│   ├── bpm_mood_tagger.py
+│   ├── local_genre_tagger.py
+│   ├── local_lyrics_tagger.py
+│   ├── online_genre_tagger.py
+│   ├── online_lyrics_tagger.py
+│   └── spotify_tagger.py
+├── temporary_output/
+│   ├── 2 Man Embassy - The End.ogg
+│   ├── BellyJay - MONTAGEM HASHIRU.ogg
+│   ├── Geoxor - Aurora.ogg
+│   ├── Leat'eq - Tokyo - Bubblegum.ogg
+│   ├── N!GHT - Yume.ogg
+│   ├── NEFFEX - Rumors.ogg
+│   └── The Chainsmokers - Closer.ogg
+├── venvs/
+│   ├── bpm_mood_tagger/
+│   ├── local_genre_tagger/
+│   ├── local_lyrics_tagger/
+│   ├── online_genre_tagger/
+│   ├── online_lyrics_tagger/
+│   └── spotify_tagger/
+├── config.json
+├── run_tagger.py
+└── setup_venvs.bat
+```
+
 ## ⚙️ Setup
 One-pass conda environment builder — sets up all six per-stage environments in one go.
 
