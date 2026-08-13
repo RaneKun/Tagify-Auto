@@ -1,6 +1,6 @@
 # 🖼️ Tagify (Auto Edition) — Screenshots
 
-## 📂 Project Stucture
+## 📂 Project Stucture (as per example)
 ```
 Tagify/
 ├── failed/
